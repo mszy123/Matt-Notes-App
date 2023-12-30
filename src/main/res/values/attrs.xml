@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="bottomSheet" format="color" />
+
+    <attr name="blueNote" format="color" />
+    <attr name="redNote" format="color" />
+    <attr name="greenNote" format="color" />
+    <attr name="yellowNote" format="color" />
+    <attr name="purpleNote" format="color" />
+    <attr name="whiteNote" format="color" />
+
+    <attr name="dividerColor" format="color"/>
+    <attr name="noteTitleText" format="color" />
+
+
+
+</resources>

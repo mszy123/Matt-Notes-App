@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/pin_image_view"
+        android:layout_width="12dp"
+        android:layout_height="11dp"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@id/note_content"
+        android:src="@drawable/baseline_push_pin_24"/>
+
+    <TextView
+        android:id="@+id/note_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:fontFamily="@font/inter_medium"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/note_content"
+        android:fontFamily="@font/inter_regular"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="18"
+        android:layout_below="@id/note_title" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/inter_regular"
+        android:layout_below="@id/note_content"
+
+        android:textSize="8dp"
+        android:id="@+id/date_textview"/>
+
+</RelativeLayout>

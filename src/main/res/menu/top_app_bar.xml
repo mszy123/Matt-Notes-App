@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/pin"
+        android:title="Pin"
+        android:icon="@drawable/outline_push_pin_24"
+        android:contentDescription="Pin note to top"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/reminder"
+        android:title="Remind"
+        android:icon="@drawable/outline_notification_add_24"
+        android:contentDescription="Remind me about note"
+        app:showAsAction="always" />
+
+
+</menu>

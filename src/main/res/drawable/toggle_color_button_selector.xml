@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/color_button" android:state_checked="false" />
+    <item  android:state_checked="true">
+        <layer-list>
+            <item android:drawable="@drawable/rounded_color_button"/>
+            <item android:drawable="@drawable/baseline_check_16"/>
+        </layer-list>
+    </item>
+</selector>
