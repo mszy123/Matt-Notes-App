@@ -15,6 +15,11 @@ This is a simple Android app for managing notes.
 
 The **Notes** app is built using Android and allows users to create, edit, and delete notes conveniently. It utilizes SQLite for data storage.
 
+<div>
+        <img src="Screenshot_20231012-124327 (1).png" alt="Placeholder Image 1" style="width: 200px; height: auto; margin-bottom: 20px;">
+        <img src="Screenshot_20231012-125611 (1).png" alt="Placeholder Image 2" style="width: 200px; height: auto;">
+</div>
+
 ## Features
 
 -   Create, edit, and delete notes
